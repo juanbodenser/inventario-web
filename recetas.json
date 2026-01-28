@@ -219,9 +219,8 @@
       "nombre": "Tempura",
       "ingredientes": {
         "harina": 800.0,
-        "agua fría": 150.0,
-        "huevo": 50.0,
-        "rendimiento": 200.0
+        "trisol": 150.0,
+        "rendimiento": 950.0
       }
     },
     {
