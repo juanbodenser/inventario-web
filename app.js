@@ -35,6 +35,18 @@ function showPartidas() {
     });
     app.appendChild(card);
   });
+
+  // Botón Recetario
+  const recetarioBtn = document.createElement("button");
+  recetarioBtn.textContent = "📖 Recetario";
+  recetarioBtn.style.marginTop = "24px";
+  recetarioBtn.onclick = () => {
+    currentPartida = null;
+    currentReceta = null;
+    showRecetario();
+  };
+
+  app.appendChild(recetarioBtn);
 }
 
 function showRecetas(partida) {
@@ -117,4 +129,36 @@ function createCard(text, onClick) {
   div.textContent = text;
   div.onclick = onClick;
   return div;
+}
+
+function showRecetario() {
+  title.textContent = "Recetario";
+  backBtn.hidden = false;
+  app.innerHTML = "";
+
+  Object.entries(data).forEach(([partida, recetas]) => {
+    const sectionTitle = document.createElement("h2");
+    sectionTitle.textContent = partida;
+    sectionTitle.style.margin = "16px 0 8px";
+    app.appendChild(sectionTitle);
+
+    recetas.forEach(receta => {
+      const card = document.createElement("div");
+      card.className = "card";
+
+      let html = `<strong>${receta.nombre}</strong><br><br>`;
+      html += `<table>
+        <tr><th>Ingrediente</th><th>Base (g)</th></tr>`;
+
+      Object.entries(receta.ingredientes).forEach(([ing, cant]) => {
+        if (ing !== "rendimiento") {
+          html += `<tr><td>${ing}</td><td>${cant}</td></tr>`;
+        }
+      });
+
+      html += `</table>`;
+      card.innerHTML = html;
+      app.appendChild(card);
+    });
+  });
 }
