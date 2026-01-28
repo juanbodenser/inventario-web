@@ -225,12 +225,19 @@
       }
     },
     {
-      "nombre": "Croquetas",
+      "nombre": "Farsa de Croquetas",
       "ingredientes": {
-        "bechamel": 300.0,
-        "jamon": 50.0,
-        "pan rallado": 50.0,
-        "rendimiento": 400.0
+        "mantequilla": 600.0,
+        "harina pichi": 600.0,
+        "cebolla blanca": 2000.0,
+        "jamon": 600.0,
+        "leche": 4000.0,
+        "fondo de jamon": 2000.0,
+        "nata": 1000.0,
+        "sal fina": 20.0,
+        "gelatina": 30.0,
+        "pimienta": 4.0,
+        "rendimiento": 8400.0
       }
     },
     {
@@ -255,6 +262,19 @@
         "centolla": 400.0,
         "cola de gambón": 600.0,
         "rendimiento": 3100.0
+      }
+    },
+    {
+      "nombre": "Farsa de Zamburiñas",
+      "ingredientes": {
+        "nata": 1000.0,
+        "puerro": 1500.0,
+        "mantequilla": 150.0,
+        "zanahoria": 180.0,
+        "oricio": 115.0,
+        "sal fina": 3.0,
+        "pomodoro": 200.0,
+        "rendimiento": 1900.0
       }
     }
   ],
