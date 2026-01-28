@@ -142,3 +142,9 @@ th:last-child {
 tr:not(:last-child) td {
   border-bottom: 1px solid var(--outline);
 }
+
+button:last-child {
+  background: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
