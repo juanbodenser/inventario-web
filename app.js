@@ -137,28 +137,53 @@ function showRecetario() {
   app.innerHTML = "";
 
   Object.entries(data).forEach(([partida, recetas]) => {
+
     const sectionTitle = document.createElement("h2");
     sectionTitle.textContent = partida;
-    sectionTitle.style.margin = "16px 0 8px";
+    sectionTitle.style.margin = "32px 0 12px";
+    sectionTitle.style.fontWeight = "500";
     app.appendChild(sectionTitle);
 
     recetas.forEach(receta => {
+
       const card = document.createElement("div");
       card.className = "card";
 
-      let html = `<strong>${receta.nombre}</strong><br><br>`;
-      html += `<table>
-        <tr><th>Ingrediente</th><th>Base (g)</th></tr>`;
+      let html = `
+        <div style="margin-bottom:12px;">
+          <div style="font-size:18px; font-weight:500;">
+            ${receta.nombre}
+          </div>
+          <div style="opacity:0.7; font-size:14px;">
+            Rendimiento: ${receta.ingredientes.rendimiento} g
+          </div>
+        </div>
+      `;
+
+      html += `
+        <table>
+          <tr>
+            <th style="text-align:left;">Ingrediente</th>
+            <th style="text-align:right;">Base (g)</th>
+          </tr>
+      `;
 
       Object.entries(receta.ingredientes).forEach(([ing, cant]) => {
         if (ing !== "rendimiento") {
-          html += `<tr><td>${ing}</td><td>${cant}</td></tr>`;
+          html += `
+            <tr>
+              <td>${ing}</td>
+              <td style="text-align:right;">${cant}</td>
+            </tr>
+          `;
         }
       });
 
       html += `</table>`;
+
       card.innerHTML = html;
       app.appendChild(card);
     });
+
   });
 }
