@@ -339,6 +339,265 @@
       }
     }
   ],
+  "Postres": [
+    {
+      "nombre": "Mantequilla Noisette",
+      "ingredientes": {
+        "mantequilla": 1000.0,
+        "rendimiento": 730.0
+      }
+    },
+    {
+      "nombre": "Manzana Asada",
+      "ingredientes": {
+        "manzana reineta": 159.0,
+        "agua": 15.0,
+        "limon": 5.0,
+        "rendimiento": 99.0
+      }
+    },
+    {
+      "nombre": "Compota de Manzana",
+      "ingredientes": {
+        "manzana asada": 1000.0,
+        "agua": 150.0,
+        "caramelo salado": 100.0,
+        "rendimiento": 1150.0
+      }
+    },
+    {
+      "nombre": "Relleno de Manzana",
+      "ingredientes": {
+        "manzana granny smith": 500.0,
+        "azucar blanco": 50.0,
+        "mantequilla noisette": 30.0,
+        "limon": 10.0,
+        "extracto de vainilla": 6.0,
+        "canela molida": 0.5,
+        "compota de manzana": 36.0,
+        "sal fina": 1.0,
+        "rendimiento": 472.0
+      }
+    },
+    {
+      "nombre": "Caramelo Salado",
+      "ingredientes": {
+        "azucar blanco": 190.0,
+        "glucosa líquida": 62.0,
+        "agua fría": 60.0,
+        "agua caliente": 90.0,
+        "nata": 160.0,
+        "sal fina": 6.0,
+        "rendimiento": 345.0
+      }
+    },
+    {
+      "nombre": "Tocinillo de Cielo",
+      "ingredientes": {
+        "agua": 250.0,
+        "azucar blanco": 400.0,
+        "yema de huevo": 500.0,
+        "extracto de vainilla": 15.0,
+        "sal fina": 3.0,
+        "rendimiento": 1011.0
+      }
+    },
+    {
+      "nombre": "Chantilly",
+      "ingredientes": {
+        "nata": 200.0,
+        "extracto de vainilla": 3.0,
+        "nata acidificada": 50.0,
+        "azucar glass": 20.0,
+        "sal fina": 1.0,
+        "amontillado": 20.0,
+        "rendimiento": 294.0
+      }
+    },
+    {
+      "nombre": "Teja de Piñones",
+      "ingredientes": {
+        "agua": 80.0,
+        "aceite de girasol": 30.0,
+        "harina pichi": 10.0,
+        "azucar glass": 5.0,
+        "aroma de almendras": 3.0,
+        "piñones": 7.0,
+        "rendimiento": 125.0
+      }
+    },
+    {
+      "nombre": "Caramelo",
+      "ingredientes": {
+        "agua": 60.0,
+        "azucar blanco": 180.0,
+        "rendimiento": 178.0
+      }
+    },
+    {
+      "nombre": "Masa de Crostata",
+      "ingredientes": {
+        "yema de huevo pasteurizada": 36.0,
+        "huevos": 60.0,
+        "azucar blanco": 100.0,
+        "harina pichi": 240.0,
+        "levadura royal": 4.8,
+        "mantequilla noisette": 89.0,
+        "harina de centeno eco integral": 80.0,
+        "rendimiento": 500.0
+      }
+    },
+    {
+      "nombre": "Frutos Rojos Macerados",
+      "ingredientes": {
+        "freson extra/premium": 125.0,
+        "cereza premium": 125.0,
+        "frambuesas": 125.0,
+        "grosella": 125.0,
+        "moras bandeja": 125.0,
+        "arandanos": 125.0,
+        "rendimiento": 1198.0
+      }
+    },
+    {
+      "nombre": "Mermelada de Fresa",
+      "ingredientes": {
+        "polvo de fresa lactofermentada": 14.6,
+        "agua": 30.0,
+        "freson extra/premium": 1395.0,
+        "azucar blanco": 350.0,
+        "limon": 70.0,
+        "extracto de vainilla": 14.0,
+        "rendimiento": 1198.0
+      }
+    },
+    {
+      "nombre": "Gel de Frutos Rojos",
+      "ingredientes": {
+        "frutos rojos macerados": 310.0,
+        "mantequilla": 55.0,
+        "rendimiento": 316.0
+      }
+    },
+    {
+      "nombre": "Glaseada de Huevo",
+      "ingredientes": {
+        "yema de huevo pasteurizada": 120.0,
+        "leche entera": 60.0,
+        "rendimiento": 180.0
+      }
+    },
+    {
+      "nombre": "Polvo De Fresa Lactofermentada",
+      "ingredientes": {
+        "freson extra/premium": 2000.0,
+        "sal fina": 40.0,
+        "rendimiento": 68.0
+      }
+    },
+    {
+      "nombre": "Crema Inglesa de Naranja",
+      "ingredientes": {
+        "leche entera": 250.0,
+        "nata": 250.0,
+        "azucar blanco": 75.0,
+        "yema de huevo pasteurizada": 150.0,
+        "sal fina": 2.0,
+        "ralladura de naranja": 2.0,
+        "mantequilla": 30.0,
+        "rendimiento": 638.0
+      }
+    },
+    {
+      "nombre": "Remojo de Coco",
+      "ingredientes": {
+        "leche entera": 1400.0,
+        "leche de coco": 1400.0,
+        "nata": 1000.0,
+        "coco rallado": 40.0,
+        "canela en rama": 0.5,
+        "rendimiento": 3750.0
+      }
+    },
+    {
+      "nombre": "Galleta de Coco y Pecanas",
+      "ingredientes": {
+        "nueces mitades": 180.0,
+        "coco rallado": 120.0,
+        "sal fina": 3.0,
+        "azucar blanco": 105.0,
+        "mantequilla": 100.0,
+        "rendimiento": 508.0
+      }
+    },
+    {
+      "nombre": "Mermelada de Higos",
+      "ingredientes": {
+        "higos secos": 340.0,
+        "azucar blanco": 415.0,
+        "naranja zumo": 473.0,
+        "vinagre de cidra": 44.0,
+        "zumo de naranja": 16.0,
+        "limon": 30.0,
+        "extracto de vainilla": 10.0,
+        "sal fina": 3.0,
+        "rendimiento": 1330.0
+      }
+    },
+    {
+      "nombre": "Bizcocho de Chocolate con Manzana",
+      "ingredientes": {
+        "mantequilla":115.0,
+        "chocolate guanaja": 212.0,
+        "miel": 170.0,
+        "compota de manzana": 125.0,
+        "cacao en polvo": 25.0,
+        "canela molida": 0.5,
+        "yema de huevo pasteurizada": 54.0,
+        "huevos": 90.0,
+        "sal fina": 3.0,
+        "rendimiento": 794.5
+      }
+    },
+    {
+      "nombre": "Ganache de Guanaja y Caramelia",
+      "ingredientes": {
+        "chocolate guanaja": 340.0,
+        "caramelia": 160.0,
+        "nata": 949.0,
+        "miel": 45.0,
+        "sal fina": 3.0,
+        "mantequilla": 89.0,
+        "rendimiento": 1586.0
+        
+      }
+    },
+    {
+      "nombre": "Crujiente de Miel",
+      "ingredientes": {
+        "azucar blanco": 300.0,
+        "agua": 118.0,
+        "miel": 63.0,
+        "glucosa líquida": 113.0,
+        "bicarbonato": 16.0,
+        "rendimiento": 610.0
+        
+      }
+    },
+    {
+      "nombre": "Remojo de Crema de Orujo",
+      "ingredientes": {
+        "crema de orujo ruavieja": 700.0,
+        "leche entera": 1000.0,
+        "nata": 450.0,
+        "mascarpone": 725.0,
+        "azucar blanco": 75.0,
+        "sal fina": 3.0,
+        "extracto de vainilla": 20.0,
+        "rendimiento": 2973.0
+      }
+    }
+  ],
   "Fondos": [
     {
       "nombre": "Caldo de Pollo",
