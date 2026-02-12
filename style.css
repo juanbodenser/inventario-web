@@ -148,3 +148,22 @@ button:last-child {
   color: var(--primary);
   border: 2px solid var(--primary);
 }
+
+h2 {
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+td {
+  padding: 4px 0;
+}
